@@ -305,7 +305,7 @@ body {
 
 #mc-signup {
   position: fixed;
-  top: 50%;
+  top: 200%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 320px;
@@ -314,6 +314,7 @@ body {
   text-align: center;
   color: #00223c;
   border-radius: 4px;
+  z-index: 1050;
 }
 
 #mc-signup .privacy {
@@ -347,5 +348,24 @@ body {
 #mc-signup #close {
   position: relative;
   margin-top: 12px;
-  color: #666;
+  color: #42dca3;
+}
+
+#mc-signup #close span {
+  cursor: pointer;
+}
+
+#mc-signup #close span:hover {
+  color: #1d9b6c;
+}
+
+#modal {
+  background-color: rgba(0,0,0,0.7);
+  z-index: 1040;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
 }

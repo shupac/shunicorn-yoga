@@ -36,14 +36,16 @@
   });
 
   var mcSignup = $('#mc-signup');
-  mcSignup.find('#close').click(function() {
+  var modal = $('#modal');
+  mcSignup.find('#close span').click(function() {
+    modal.fadeOut();
     mcSignup.animate({
       top: '200%',
     }, 200, 'linear');
   });
 
   $('.mc-signup-btn').click(function() {
-    console.log('click');
+    modal.fadeIn();
     mcSignup.animate({
       top: '50%'
     }, 200, 'linear');
