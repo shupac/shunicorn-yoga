@@ -244,3 +244,42 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+#mc-signup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  background-color: #efefef;
+  padding: 20px;
+  text-align: center;
+  color: #00223c;
+  border-radius: 4px; }
+
+#mc-signup .privacy {
+  margin-top: 10px;
+  font-size: 14px; }
+
+#mc-signup .row {
+  text-align: left; }
+
+#mc-signup label {
+  padding-right: 0; }
+
+#mc-signup input[type='submit'] {
+  width: 100%; }
+
+#mc-signup .subscribe {
+  margin-top: 36px; }
+
+#mc-signup .subscribe input {
+  border-radius: 4px;
+  background-color: #42dca3;
+  border-color: #42dca3;
+  color: #efefef; }
+
+#mc-signup #close {
+  position: relative;
+  margin-top: 12px;
+  color: #666; }
